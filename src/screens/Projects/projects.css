@@ -1,0 +1,103 @@
+.container-title {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.projects-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.projects-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.projects-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.projects-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.projects-card a i {
+  margin-right: 5px;
+}
+
+.swipe-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--title-color);
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+.swipe-button:hover {
+  background-color: var(--title-color-dark);
+}
+
+.swipe-button.left {
+  left: 10px;
+}
+
+.swipe-button.right {
+  right: 10px;
+}
+
+@media (max-width: 600px) {
+  .projects-card {
+    padding: 15px;
+  }
+
+  .projects-card h2 {
+    font-size: 20px;
+  }
+
+  .projects-card p {
+    font-size: 14px;
+  }
+}

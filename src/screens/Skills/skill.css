@@ -1,0 +1,50 @@
+.container-title {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.skill-box {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s, transform 0.3s;
+  margin: 40px;
+}
+
+.skill-box:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2),
+    0px 8px 20px rgba(5, 5, 39, 0.663); /* Adding glowing shadow effect */
+  transform: translateY(-5px);
+}
+.skill-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.skill-name {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--title-color);
+  margin-top: 10px;
+  font-family: poppins;
+}
