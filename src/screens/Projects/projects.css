@@ -2,6 +2,10 @@
   margin: 50px;
   display: flex;
   justify-content: center;
+  color: var(--title-color);
+  font-style: var(--body-font);
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
 }
 
 .projects-container {
@@ -23,12 +27,13 @@
   text-align: center;
   transition: transform 0.5s ease-in-out;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
+  max-height: 900px;
   margin: 20px;
 }
 
 .projects-card img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -55,6 +60,10 @@
 
 .projects-card a i {
   margin-right: 5px;
+}
+
+.github-icon {
+  max-width: 20%;
 }
 
 .swipe-button {

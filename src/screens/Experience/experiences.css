@@ -1,0 +1,53 @@
+/* ExperiencePage.css */
+.container-title {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  color: var(--title-color);
+  font-family: var(--body-font);
+  font-size: var(--big-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.experience-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: var(--body-font);
+}
+
+.experience {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.319);
+}
+
+.experience h3 {
+  margin-top: 0;
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  font-family: var(--body-font);
+}
+
+.experience h4 {
+  margin-top: 5px;
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  font-family: var(--body-font);
+}
+
+.location-date {
+  font-style: italic;
+  color: var(--body-color);
+}
+
+.description {
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  font-family: var(--body-font);
+}
+
+/* Additional styling can be added as per your design requirements */

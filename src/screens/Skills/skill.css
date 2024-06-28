@@ -46,5 +46,39 @@
   line-height: 1.1;
   color: var(--title-color);
   margin-top: 10px;
-  font-family: poppins;
+  font-family: var(--body-font);
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill-box {
+    width: 95px;
+    height: 95px;
+    margin: 10px;
+  }
+
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 2px;
+  }
+
+  .skill-name {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 0.5;
+    color: var(--title-color);
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+  }
+  /* Disable hover effect */
+  .skill-box:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Reset box-shadow */
+    transform: none; /* Reset transform */
+  }
 }
